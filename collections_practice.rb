@@ -35,7 +35,7 @@ end
 def find_a(arr)
   arry = []
   arr.each do
-    |x| arry << x if x[0] = "a"
+    |x| arry << x if x[0] == "a"
   end
   arry
 end
