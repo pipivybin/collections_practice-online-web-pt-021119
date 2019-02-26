@@ -24,7 +24,9 @@ def swap_elements(arr)
 end
 
 def reverse_array(arr)
-  arr.sort.reverse
+  arr.sort do
+    |a, b| a <=> b
+  end
 end
 
 def kesha_maker(arr)
