@@ -10,8 +10,6 @@ end
 
 def sort_array_char_count(arr)
   arr.length.sort 
-  end
-  arr
 end
 
 def swap_elements(arr)
