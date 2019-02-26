@@ -52,7 +52,7 @@ end
 
 def add_s(arr)
   arr.each do
-    |x| x.insert(-1, "s")
+    |x| x.insert(-1, "s") unless arr[1] == x
   end
   arr
 end
