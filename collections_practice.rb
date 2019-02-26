@@ -20,8 +20,7 @@ arr
 end
 
 def reverse_array(arr)
-  arr.sort do
-    |a, b| a <=> b
+  arr.reverse
   end
 end
 
